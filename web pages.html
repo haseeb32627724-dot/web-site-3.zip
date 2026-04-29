@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one {
+            width: 100%;
+            height: 150px;
+        }
+
+        ul {
+            color: black;
+            list-style-type: none;
+            overflow: hidden;
+            position: absolute;
+        }
+
+        ul li {
+            color: black;
+            float: left;
+            padding: 12px;
+            font-size: 18px;
+            font-family: calibri light;
+            margin-top: 15px;
+
+        }
+
+        .light {
+            margin-top: 25px;
+        }
+
+        .among {
+            margin-left: 1100px;
+            margin-top: 40px;
+            width: 10%;
+            height: 50px;
+            border-radius: 8px;
+            color: white;
+            background-color: crimson;
+            font-size: 16px;
+        }
+
+        .among:hover {
+            background-color: black;
+        }
+
+        .car {
+            width: 45%;
+            height: 600px;
+            margin-top: 180px;
+        }
+
+        .stop {
+            margin-left: 120px;
+            margin-top: 80px;
+        }
+
+        .o {
+            margin-left: 120px;
+            font-size: 70px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin-top: -10px;
+            width: 39%;
+        }
+
+        .w {
+            margin-left: 120px;
+            width: 70%;
+            margin-top: -55px;
+            font-size: 18px;
+        }
+
+        .r {
+            margin-left: 120px;
+            height: 48px;
+            margin-top: 10px;
+            font-size: 18px;
+            width: 42%;
+            background-color: skyblue;
+            color: white;
+            border-radius: 8px;
+        }
+
+        .r:hover {
+            background-color: black;
+        }
+
+        .yellow {
+            width: 45%;
+            height: 600px;
+            margin-left: 750px;
+            margin-top: -600px;
+        }
+
+        .eight {
+            height: 500px;
+            width: 80%;
+        }
+
+        .a {
+            width: 280px;
+            height: 150px;
+            margin-left: 420px;
+
+        }
+
+        .extra {
+            width: 100%;
+            height: 500px;
+            border: 1px solid;
+            background-color: lightgray;
+        }
+
+        .name {
+            width: 90%;
+            height: 100px;
+            border: 1px solid;
+            border-radius: 15px;
+            margin-top: 150px;
+            margin-left: 30px;
+            padding-top: 40px;
+            padding-left: 50px;
+            font-size: 24px;
+            background-color: white;
+            position: relative;
+        }
+
+        .fine {
+            font-size: 25px;
+            margin-left: 40px;
+            margin-top: 100px;
+        }
+
+        .nice {
+            font-size: 20px;
+        }
+
+        .people {
+            margin-left: 580px;
+            width: 30%;
+            height: 50px;
+            font-size: 18px;
+            position: absolute;
+            margin-top: -80px;
+        }
+
+        .have {
+            width: 14%;
+            height: 60px;
+            border-radius: 8px;
+            background-color: blue;
+            color: white;
+            position: absolute;
+            margin-left: 950px;
+            margin-top: -80px;
+        }
+
+        .have:hover {
+            background-color: black;
+        }
+
+        .silver {
+            width: 100%;
+            height: 700px;
+            margin-top: 60px;
+        }
+
+        .classic {
+            margin-left: 400px;
+            margin-top: 70px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 50px;
+        }
+
+        .eagle {
+            width: 25%;
+            height: 60%;
+            border-radius: 12px;
+            margin-left: 40px;
+        }
+
+        .eq {
+            height: 400px;
+            width: 300px;
+            border-radius: 12px;
+            margin-left: 20px;
+        }
+
+        .po {
+            border-radius: 12px;
+            height: 400px;
+            width: 300px;
+        }
+
+        .qw {
+            margin-top: -160px;
+            font-size: 40px;
+            color: white;
+            margin-left: 80px;
+
+        }
+
+        .cs {
+            margin-left: 70px;
+            width: 50%;
+            height: 50px;
+            margin-top: -20px;
+            border-radius: 30px;
+            background-color: skyblue;
+            color: white;
+        }
+
+        .cs:hover {
+            background-color: transparent;
+        }
+
+        .ew {
+            width: 300px;
+            height: 400px;
+            margin-left: 340px;
+            margin-top: -400px;
+            border-radius: 12px;
+        }
+
+        .ma {
+            width: 300px;
+            height: 400px;
+            border-radius: 12px;
+        }
+
+        .me {
+            margin-top: -160px;
+            margin-left: 80px;
+            font-size: 30px;
+            color: white;
+        }
+
+        .te {
+            width: 50%;
+            height: 50px;
+            margin-left: 75px;
+            border-radius: 30px;
+            background-color: skyblue;
+            color: white;
+        }
+
+        .te:hover {
+            background-color: transparent;
+        }
+
+        .uy {
+            width: 300px;
+            height: 400px;
+            margin-left: 660px;
+            margin-top: -400px;
+            border-radius: 12px;
+        }
+
+        .tq {
+            width: 300px;
+            height: 400px;
+            border-radius: 12px;
+        }
+
+        .tp {
+            margin-left: 80px;
+            margin-top: -160px;
+            font-size: 30px;
+            color: white;
+        }
+
+        .lo {
+            margin-left: 70px;
+            width: 50%;
+            height: 50px;
+            border-radius: 30px;
+            background-color: skyblue;
+            color: white;
+        }
+
+        .lo:hover {
+            background-color: transparent;
+        }
+
+        .fo {
+            width: 300px;
+            height: 400px;
+            margin-left: 970px;
+            margin-top: -400px;
+            border-radius: 12px;
+        }
+
+        .si {
+            width: 300px;
+            height: 400px;
+            border-radius: 12px;
+        }
+
+        .fq {
+
+            margin-top: -150px;
+            margin-left: 80px;
+            font-size: 30px;
+            color: white;
+
+        }
+
+        .fg {
+            margin-left: 80px;
+            margin-top: -10px;
+            width: 50%;
+            height: 55px;
+            border-radius: 30px;
+            background-color: skyblue;
+            color: white;
+        }
+
+        .fg:hover {
+            background-color: transparent;
+        }
+
+        .jh {
+            width: 100%;
+            height: 1000px;
+            border: 1px solid;
+            background-color: rgb(211, 211, 211);
+        }
+
+        .np {
+            width: 30%;
+            height: 230px;
+            margin-left: 30px;
+            background-color: white;
+            margin-top: -18px;
+        }
+
+        .za {
+            width: 90%;
+            margin-left: 40px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 18px;
+
+        }
+
+        .ui {
+            margin-left: 120px;
+            font-size: 18px;
+        }
+
+        .wl {
+            margin-top: 60px;
+            margin-left: 100px;
+            width: 40%;
+            height: 60px;
+            border-radius: 30px;
+            color: white;
+            background-color: skyblue;
+        }
+
+        .wl:hover {
+            background-color: navy;
+        }
+
+        .aq {
+            width: 30%;
+            height: 230px;
+            margin-left: 430px;
+            margin-top: -248px;
+            background-color: white;
+        }
+
+        .open {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 18px;
+            width: 95%;
+            margin-left: 18px;
+
+        }
+
+        .wm {
+            margin-top: 40px;
+            margin-left: 100px;
+            width: 40%;
+            height: 60px;
+            border-radius: 30px;
+            color: white;
+            background-color: skyblue;
+        }
+
+        .wm:hover {
+            background-color: navy;
+        }
+
+        .qlo {
+            width:30%;
+            height:230px;
+            margin-left: 830px;
+            margin-top:-248px;
+            background-color: white;
+        }
+
+        .qpo {
+            width: 40%;
+            height: 60px;
+            border-radius: 30px;
+            color: white;
+            background-color: skyblue;
+            margin-left: 100px;
+            margin-top: 45px;
+        }
+
+        .qpo:hover {
+            background-color: navy;
+        }
+
+        .wer {
+            width:30%;
+            height:230px;
+            margin-top: 20px;
+            margin-left: 30px;
+            background-color: white;
+        }
+
+        .wet {
+            width:90%;
+            margin-left: 40px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 18px;
+        }
+
+        .wey {
+              width: 40%;
+            height: 60px;
+            border-radius: 30px;
+            color: white;
+            background-color: skyblue;
+            margin-left: 100px;
+            margin-top: 20px;
+
+        }
+
+        .wey:hover {
+            background-color: navy;
+
+        }
+
+        .weu {
+            width:30%;
+            height:230px;
+            margin-left: 430px;
+            margin-top:-245px;
+            background-color: white;
+
+        }
+
+        .wei {
+              width: 40%;
+            height: 60px;
+            border-radius: 30px;
+            color: white;
+            background-color: skyblue;
+            margin-left: 120px;
+            margin-top: 20px;
+
+        }
+
+        .wei:hover {
+            background-color: navy;
+        }
+
+        .weo {
+            width:90%;
+            margin-left: 40px;
+            font-size: 18px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .wse {
+            width:30%;
+            height:230px;
+            margin-left: 830px;
+            margin-top:-245px;
+            background-color: white;
+        }
+
+        .wso {
+            width:90%;
+            margin-left: 40px;
+            font-size: 18px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .wsr { width: 40%;
+            height: 60px;
+            border-radius: 30px;
+            color: white;
+            background-color: skyblue;
+            margin-left: 100px;
+            margin-top: 20px;
+        }
+
+        .wsr:hover {
+            background-color: navy;
+        }
+
+        .ery {
+            text-align: center;
+             margin-top: 50px;
+              font-size: 25px;
+              width:95%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="one">
+        <img src="as.jpeg" class="a">
+        <hr>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Oppurtunities</li>
+                <li>Service</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <button class="among">SUBSCRIBE</button>
+        <hr class="light">
+    </div>
+
+    <div class="car">
+        <h3 class="stop">One Stop For Global Oppurtunities</h3>
+        <p class="o">Find Your Future</p>
+        <p class="w">GETINFO.PK – Your ultimate source for international
+            opportunities! Find fully funded scholarships,
+            fellowships, and internships in one place.
+            We provide easy-to-follow application steps, benefits,
+            and requirements. Boost your career and future with our
+            global opportunities platform. Explore now and achieve your goals!.</p>
+        <button class="r">Explore Oppurtunities</button>
+
+    </div>
+
+    <div class="yellow">
+        <img src="an.jpeg" class="eight">
+
+    </div>
+
+    <div class="extra">
+        <div class="name">
+            Subscribe to our Newsletter
+
+            <p class="nice">Subscribe now and get the latest
+                opportunities delivered to your inbox!</p>
+
+            <input type="email" placeholder="Email address" class="people"> <button class="have">SUBSCRIBE</button>
+        </div>
+
+    </div>
+
+    <div class="silver">
+
+        <p class="classic">Popular Categories</p>
+
+        <form class="eq">
+
+            <img src="uu.jfif" class="po">
+            <p class="qw">Service</p>
+            <button class="cs">CLICK HERE</button>
+
+        </form>
+
+        <form class="ew">
+            <img src="pi.jfif" class="ma">
+            <p class="me">scholarships</p>
+            <button class="te">CLICK HERE</button>
+
+        </form>
+
+        <form class="uy">
+
+            <img src="an.jpeg" class="tq">
+            <p class="tp">Fellowships</p>
+            <button class="lo">CLICK HERE</button>
+
+        </form>
+
+        <form class="fo">
+
+            <img src="ki.jfif" class="si">
+            <p class="fq">Internships</p>
+            <button class="fg">CLICK HERE</button>
+
+        </form>
+
+    </div>
+
+    <div class="jh">
+
+        <form class="np">
+            <p class="za">ROYAL THAI GOVERNMENT SCHOLARSHIP 2026</p>
+            <p class="ui">December 4, 2025</p>
+            <button class="wl">READ MORE</button>
+
+        </form>
+
+        <form class="aq">
+
+            <p class="open">STUDY IN BELGIUM WITHOUT IELTS 2026-FULLY FUNDED SCHOLARSHIP</p>
+            <p class="ui">December 4, 2025</p>
+            <button class="wm">READ MORE</button>
+
+        </form>
+
+        <form class="qlo">
+
+            <p class="open">EMILE BOUTMY SCHOLARSHIP 2026-2027 (IN FRANCE)</p>
+
+            <p class="ui">December 3, 2025</p>
+
+            <button class="qpo">READ MORE</button>
+
+        </form>
+
+        <form class="wer">
+            <p class="wet">CHDecembULA GLOBAL VISITING FELLOWSHIP PROGRAM 2026 IN THAILAND</p>
+            <p class="ui">December 1, 2025</p>
+            <button class="wey">READ MORE</button>
+
+        </form>
+
+        <form class="weu">
+            <p class="weo">SCHOLARSHIP AT THE UNIVERSITY OF TORONTO IN CANADA</p>
+            <p class="ui">December 1, 2025</p>
+            <button class="wei">READ MORE</button>
+
+        </form>
+
+        <form class="wse">
+            <p class="wso">King Fahd University Graduate Scholarship 2026</p>
+
+            <p class="ui">December 1, 2025</p>
+
+            <button class="wsr">READ MORE</button>
+        </form>
+
+        <hr style="color:white; margin-top: 80px;">
+
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Oppurtunities</li>
+                <li>Service</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+
+        <hr style="margin-top: 130px;">
+
+        <h3 class="ery">Sign up to receive email updates, Sholarships, Fellowships etc.</h3>
+
+        <hr style="margin-top: 60px;">
+
+        <p style="text-align: center; margin-top: 30px;">Copyright © 2025 getinfo.pk | Powered by getinfo.pk</p>
+
+         </div>
+</body>
+
+</html>
